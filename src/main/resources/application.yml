@@ -1,0 +1,6 @@
+---
+applications:
+  - name: hello-world
+
+server:
+ - port: 8080
