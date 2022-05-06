@@ -10,10 +10,4 @@ public class HelloWorldApplication {
     public static void main(String[] args) {
         SpringApplication.run(HelloWorldApplication.class, args);
     }
-
-    @GetMapping("/message")
-    public String getMessage(){
-        return "Welcome to spring-boot";
-    }
-
 }
